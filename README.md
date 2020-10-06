@@ -2,7 +2,7 @@
 
 Replicating this error...
 
-    cd /path/to/poetry-directory-dependency/package-a
+    cd /path/to/poetry-dependency-bug/package-a
     poetry install
     
 When directory dependencies are a bit more complex than... 
