@@ -1,5 +1,10 @@
 # poetry-directory-dependency
 
+Replicating this error...
+
+    cd /path/to/poetry-directory-dependency/package-a
+    poetry install
+    
 When directory dependencies are a bit more complex than... 
     
     a -> b
@@ -11,9 +16,4 @@ Poetry fails to resolve all paths. In this example here, the dependency is as fo
     a -> d
     b -> c
     d -> b
-
-Running this error...
-
-    cd /path/to/poetry-directory-dependency/package-a
-    poetry install
     
